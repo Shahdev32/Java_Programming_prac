@@ -1,3 +1,4 @@
+package Basic;
 import java.util.Scanner;
 
 public class JavaBasic {
@@ -646,24 +647,27 @@ public class JavaBasic {
 
 
 
-    int rows = 4;
+    // int rows = 4;
 
-        for (int i = 1; i <= rows; i++) {
+    //     for (int i = 1; i <= rows; i++) {
             
-            // Loop for Spaces: (Total Rows - Current Row)
-            for (int j = 1; j <= rows - i; j++) {
-                System.out.print("  "); 
-            }
+    //         // Loop for Spaces: (Total Rows - Current Row)
+    //         for (int j = 1; j <= rows - i; j++) {
+    //             System.out.print("  "); 
+    //         }
             
-            // Loop for Stars: (Equal to Current Row)
-            for (int k = 1; k <= i; k++) {
-                System.out.print("* ");
-            }
+    //         // Loop for Stars: (Equal to Current Row)
+    //         for (int k = 1; k <= i; k++) {
+    //             System.out.print("* ");
+    //         }
             
-            System.out.println();
-        }
+    //         System.out.println();
+    //     }
+
+
 
        
+
     
 
     
